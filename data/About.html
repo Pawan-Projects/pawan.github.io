@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before,*:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        /* /* width:50%;
+        height:200px;
+        position:absolute;
+        margin-bottom: 16px;
+        margin-left: 25%;
+        padding: 0% 5%; 
+       margin: 2% 40%;
+       background-color:rgba(44, 44, 44, 0.924);
+       box-shadow: 8px 30px 120px 4 rgba(44, 44, 44, 0.924);
+       border: 5px solid red;*/
+        
+      }
+      
+      .card {
+        margin-left: 7vw;
+        margin-right: -3px;
+        margin:auto;
+         padding:10px 10px; 
+        border: 5px solid black;
+        width: 333px;
+        height: 600px; 
+      }
+      
+      .about-section {
+        padding: 3px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 16px;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: block;
+      }
+      
+      .title {
+        color: grey;
+      }
+      
+      .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding-top: 4px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        text-decoration: none;
+        margin-bottom: 9px;
+      }
+      
+      .button:hover {
+        background-color: #555;
+      }
+      
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="about-section">
+      <h1>About Us </h1>
+      <p>Some text about who we are and what we do.</p>
+      <p>Resize the browser window to see that this page is responsive by the way.</p>
+    </div>
+
+    <h2 style="text-align:center">Our Team</h2>
+      <div class="column">
+        <div class="card">
+          <img src="about.jpg" alt="Jane" style="width: 300px; height: 400px;">
+          <div class="container">
+            <h2>Pawan Patidar</h2>
+            <p class="title">Website Developer</p>
+            <p>i am a website devloper,a photoshop editor,writer,artist </p>
+            <p><a href="999pawanpatidar999@gmail.com">999pawanpatidar999@gmail.com</a> </p>
+           <p>
+              <button class="button"><a class="button" href="999pawanpatidar999@gmail.com">Contact</a></button>
+            </p>
+          </div>
+        </div>
+
+
+  </body>
+
+</html>
